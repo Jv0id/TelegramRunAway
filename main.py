@@ -3,7 +3,7 @@ from pyrogram.enums import ChatType
 
 api_id = YOUR_APP_ID
 api_hash = "YOUR_APP_HASH)"
-app = Client("AnyString")
+app = Client("AnyString", api_id=api_id, api_hash=api_hash)
 
 
 async def main():
